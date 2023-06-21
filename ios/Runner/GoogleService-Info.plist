@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>717682395181-akv4771pr7ka1h31cbunsalqgsbdt6ca.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.717682395181-akv4771pr7ka1h31cbunsalqgsbdt6ca</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA6xO_f_G3NY-3R96DvRMmKGzrDzhJ6y2I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>717682395181</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.karolinasadlik.uporzadkowaneKorepetycje</string>
+	<key>PROJECT_ID</key>
+	<string>korepetycje12</string>
+	<key>STORAGE_BUCKET</key>
+	<string>korepetycje12.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:717682395181:ios:6b9d8b697cb1365e6850a4</string>
+</dict>
+</plist>

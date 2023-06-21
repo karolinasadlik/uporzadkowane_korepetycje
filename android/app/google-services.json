@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717682395181",
+    "project_id": "korepetycje12",
+    "storage_bucket": "korepetycje12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717682395181:android:a80d58a31b912e996850a4",
+        "android_client_info": {
+          "package_name": "com.karolinasadlik.uporzadkowane_korepetycje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717682395181-0u0p9fs732skehfovpoh8pa4ff1osts4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4QBUNhfXOcPNSV_ewodz-fdXId8weDTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717682395181-0u0p9fs732skehfovpoh8pa4ff1osts4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
