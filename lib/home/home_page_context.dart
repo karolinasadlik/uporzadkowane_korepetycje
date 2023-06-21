@@ -8,76 +8,32 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
+      ),
       appBar: AppBar(
         title: const Center(
             child: Text(
           "Dzień tygodnia",
           style: TextStyle(color: Colors.white),
         )),
-        backgroundColor: const Color.fromARGB(255, 112, 13, 6),
+        backgroundColor: Colors.purple,
       ),
       body: ListView(
         children: [
           Container(
             decoration: BoxDecoration(
               border: Border.all(
-                color: Colors.red,
+                color: Colors.purple,
               ),
-              borderRadius: BorderRadius.all(
+              borderRadius: const BorderRadius.all(
                 Radius.circular(20),
               ),
             ),
-            margin: EdgeInsets.all(40),
-            padding: EdgeInsets.all(40),
-            child: Text('PONIEDZIAŁEK'),
-          ),
-          Container(
-            padding: EdgeInsets.all(30),
-            margin: EdgeInsets.all(
-              30,
-            ),
-            color: Colors.white,
-            child: Text('WTOREK'),
-          ),
-          Container(
-            padding: EdgeInsets.all(30),
-            margin: EdgeInsets.all(
-              30,
-            ),
-            color: Colors.white,
-            child: Text('ŚRODA'),
-          ),
-          Container(
-            padding: EdgeInsets.all(30),
-            margin: EdgeInsets.all(
-              30,
-            ),
-            color: Colors.white,
-            child: Text('CZWARTEK'),
-          ),
-          Container(
-            padding: EdgeInsets.all(30),
-            margin: EdgeInsets.all(
-              30,
-            ),
-            color: Colors.white,
-            child: Text('PIĄTEK'),
-          ),
-          Container(
-            padding: EdgeInsets.all(30),
-            margin: EdgeInsets.all(
-              30,
-            ),
-            color: Colors.white,
-            child: Text('SOBOTA'),
-          ),
-          Container(
-            padding: EdgeInsets.all(30),
-            margin: EdgeInsets.all(
-              30,
-            ),
-            color: Colors.white,
-            child: Text('NIEDZIELA'),
+            margin: const EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
+            child: const Center(child: Text('PONIEDZIAŁEK')),
           ),
         ],
       ),
