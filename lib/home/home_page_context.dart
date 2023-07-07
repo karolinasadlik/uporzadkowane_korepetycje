@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 import 'package:liquid_swipe/liquid_swipe.dart';
@@ -31,12 +30,12 @@ class HomePage extends StatelessWidget {
   }
 
   final pages = [
-    Screen1(),
-    Screen2(),
-    Screen3(),
-    Screen4(),
-    Screen5(),
-    Screen6(),
-    Screen7(),
+    const Screen1(),
+    const Screen2(),
+    const Screen3(),
+    const Screen4(),
+    const Screen5(),
+    const Screen6(),
+    const Screen7(),
   ];
 }
