@@ -1,6 +1,7 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
+import 'package:uporzadkowane_korepetycje/home/screens/row/row_content_page.dart';
 
 
 class Screen4 extends StatelessWidget {
@@ -13,15 +14,11 @@ class Screen4 extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        title: Center(
-          child: Text(
-            "Czwartek",
-            style: GoogleFonts.kadwa(
-                color: Colors.white, fontWeight: FontWeight.bold),
-          ),
-        ),
+        title: const RowForAll(),
         backgroundColor: Colors.black,
       ),
+      body: const Center(
+      )
     );
   }
 }

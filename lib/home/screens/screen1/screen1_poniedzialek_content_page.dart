@@ -1,6 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import '../row/row_content_page.dart';
 
 class Screen1 extends StatelessWidget {
   const Screen1({
@@ -10,31 +10,21 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blue,
+      appBar: AppBar(
+        title: const RowForAll(),
+        backgroundColor: Colors.blue,
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: const Icon(Icons.add),
       ),
-      backgroundColor: Colors.blue,
-      appBar: AppBar(
-        title: Center(
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {},
           child: Text(
-            "Poniedziałek",
-            style: GoogleFonts.kadwa(
-                color: Colors.white, fontWeight: FontWeight.bold),
-          ),
-        ),
-        backgroundColor: Colors.blue,
-      ),
-      body: const Center(
-        child: Center(
-          child: Column(
-            children: <Widget>[
-              Divider(),
-              Text("Tutaj tekst"),
-              Divider(),
-              Text("Tutaj tekst"),
-              Divider(),
-            ],
+            'Dodaj ucznia',
+            style: GoogleFonts.kadwa(fontSize: 20, color: Colors.black),
           ),
         ),
       ),
