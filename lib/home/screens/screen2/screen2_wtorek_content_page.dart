@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:uporzadkowane_korepetycje/home/screens/row_appbar/row_content_page.dart';
 
-import '../elevated_button/elevated_button_content_page.dart';
+
 
 
 class Screen2 extends StatelessWidget {
@@ -18,10 +18,7 @@ class Screen2 extends StatelessWidget {
         title: const RowForAll(),
         backgroundColor: Colors.pink,
       ),
-      body: const Center(
-        child: ElevatedButtonForAll(),
-        
-      ),
+     
     );
   }
 }
