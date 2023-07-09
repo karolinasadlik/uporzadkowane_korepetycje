@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 
+import '../floating_action_button/floating_action_button_page.dart';
 import '../row_appbar/row_content_page.dart';
 
 class Screen1 extends StatelessWidget {
@@ -16,10 +17,7 @@ class Screen1 extends StatelessWidget {
         title: const RowForAll(),
         backgroundColor: Colors.blue,
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: const Icon(Icons.add),
-      ),
+      floatingActionButton: FloatingActionButtonForAllScreens(),
       
     );
   }
