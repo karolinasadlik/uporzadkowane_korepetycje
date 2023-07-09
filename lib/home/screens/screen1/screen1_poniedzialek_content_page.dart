@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import '../row/row_content_page.dart';
+
+import '../elevated_button/elevated_button_content_page.dart';
+import '../row_appbar/row_content_page.dart';
 
 class Screen1 extends StatelessWidget {
   const Screen1({
@@ -19,15 +20,11 @@ class Screen1 extends StatelessWidget {
         onPressed: () {},
         child: const Icon(Icons.add),
       ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () {},
-          child: Text(
-            'Dodaj ucznia',
-            style: GoogleFonts.kadwa(fontSize: 20, color: Colors.black),
-          ),
-        ),
+      body: const Center(
+        child: ElevatedButtonForAll(),
       ),
     );
   }
 }
+
+

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:uporzadkowane_korepetycje/home/screens/elevated_button/elevated_button_content_page.dart';
 
-import 'package:uporzadkowane_korepetycje/home/screens/row/row_content_page.dart';
+import 'package:uporzadkowane_korepetycje/home/screens/row_appbar/row_content_page.dart';
 
 class Screen3 extends StatelessWidget {
   const Screen3({
@@ -16,6 +17,7 @@ class Screen3 extends StatelessWidget {
         backgroundColor: Colors.purple,
       ),
       body: const Center(
+        child: ElevatedButtonForAll(),
         
       ),
     );
