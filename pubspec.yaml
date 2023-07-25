@@ -40,9 +40,8 @@ dependencies:
   cloud_firestore: ^4.8.1
   liquid_swipe: ^3.1.0
   table_calendar: ^3.0.9
-  firebase_ui_auth: ^1.4.0
-  flutterfire_ui: ^0.4.3+20
   firebase_auth: ^4.6.3
+  firebase_ui_auth: ^1.5.0
   
  
 
