@@ -1,5 +1,5 @@
+import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterfire_ui/auth.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({
@@ -8,8 +8,18 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ProfileScreen(providerConfigs: [
-      EmailProviderConfiguration(),
-    ], avatarSize: 24);
+    return ProfileScreen(
+      providers: [
+        EmailAuthProvider(),
+      ],
+      actions: [
+        SignedOutAction(
+          (context) {
+            Navigator.of(context).pop();
+          },
+        ),
+      ],
+      avatarSize: 24,
+    );
   }
 }
