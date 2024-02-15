@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/add%20note%20for%20students/style_page.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/add%20note%20for%20students/note_style_page.dart';
 
 class NoteReaderScreen extends StatefulWidget {
   const NoteReaderScreen(this.doc, {super.key});

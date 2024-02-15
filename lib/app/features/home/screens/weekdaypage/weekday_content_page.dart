@@ -2,11 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/add%20note%20for%20students/add_note_page_content.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/row_appbar/calendar/calendar_content_page.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/row_appbar/custom_search_delegate/custom_search_delegate_content_page.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/row_appbar/profile_page/profile_page.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/weekdaypage/cubit/weekday_cubit.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/add%20note%20for%20students/add_note_page_content.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/appBar/calendar/calendar_content_page.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/appBar/custom_search_delegate/custom_search_delegate_content_page.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/appBar/profile_page/profile_page.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/weekdaypage/cubit/weekday_cubit.dart';
 
 enum _MenuValues { callendar, logout }
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/weekdaypage/weekday_content_page.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/weekdaypage/weekday_content_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({

@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/add%20note%20for%20students/note_editor.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/add%20note%20for%20students/note_reader.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/add%20note%20for%20students/style_page.dart';
-import 'package:uporzadkowane_korepetycje/home/screens/add%20note%20for%20students/widget_note_box_page.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/add%20note%20for%20students/note_editor.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/add%20note%20for%20students/note_reader.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/add%20note%20for%20students/note_style_page.dart';
+import 'package:uporzadkowane_korepetycje/app/features/home/screens/add%20note%20for%20students/widget_note_box_page.dart';
 
 class NotePage extends StatefulWidget {
   const NotePage({
@@ -60,6 +60,7 @@ class _NotePageState extends State<NotePage> {
                     return const Center(child: CircularProgressIndicator());
                   }
                   if (snapshot.hasData) {
+
                     final notes = snapshot.data!.docs
                         .where((note) => note['student_id'] == widget.studentId)
                         .map((note) => noteBox(() {
