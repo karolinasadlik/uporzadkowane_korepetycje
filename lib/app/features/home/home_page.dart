@@ -14,31 +14,38 @@ class HomePage extends StatelessWidget {
         pages: [
           WeekdayPage(
             title: 'Poniedziałek',
-            backgroundColor: Colors.blue,
+            backgroundColor: const Color.fromARGB(255, 160, 199, 231),
+            today: (DateTime.now()),
           ),
           WeekdayPage(
             title: 'Wtorek',
-            backgroundColor: Colors.pink,
+            backgroundColor: const Color.fromARGB(255, 236, 93, 141),
+            today: (DateTime.now()),
           ),
           WeekdayPage(
             title: "Środa",
-            backgroundColor: Colors.purple,
+            backgroundColor: const Color.fromARGB(255, 197, 134, 208),
+            today: (DateTime.now()),
           ),
           WeekdayPage(
             title: 'Czwartek',
             backgroundColor: Colors.black,
+            today: (DateTime.now()),
           ),
           WeekdayPage(
             title: 'Piątek',
-            backgroundColor: Colors.orange,
+            backgroundColor: const Color.fromARGB(255, 255, 167, 123),
+            today: (DateTime.now()),
           ),
           WeekdayPage(
             title: 'Sobota',
-            backgroundColor: Colors.yellow,
+            backgroundColor: const Color.fromARGB(255, 4, 2, 52),
+            today: (DateTime.now()),
           ),
           WeekdayPage(
             title: 'Niedziela',
-            backgroundColor: Colors.green,
+            backgroundColor: const Color.fromARGB(255, 160, 224, 163),
+            today: (DateTime.now()),
           ),
         ],
         enableLoop: true,
